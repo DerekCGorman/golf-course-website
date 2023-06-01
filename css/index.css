@@ -289,6 +289,10 @@ nav .links a{
     font-family: var(--sans-font);
 }
 
+.faq h2{
+    margin: 64px;
+}
+
 .faq .module{
     display: flex;
     flex-direction: column;
@@ -668,9 +672,13 @@ footer hr{
         height: 20%;
     }
 
+    .about-container{
+        height: auto
+    }
+
     .about-container .left{
         width: 100%;
-        max-height: 80%;
+        max-height: 100%;
         margin: 32px;
     }
 
@@ -684,6 +692,16 @@ footer hr{
 
     .contact-container form textarea{
         width: 150%;
+    }
+
+    .faq{
+        padding: 5px;
+        height: auto;
+    }
+
+    .faq .module{
+        padding: 16px;
+        width: 70%;
     }
 }
 
