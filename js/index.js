@@ -1,5 +1,7 @@
 const boxes = document.querySelectorAll('.module');
 
+window.onscroll = function() {scrollFunction()};
+
 boxes.forEach(box => {
     box.addEventListener('click', () =>{
         let answer = box.children[1];
@@ -20,4 +22,13 @@ const faqOpenClose = (answer) => {
             answer.classList.add('hide');
             hidden = true;
         }
+}
+
+const scrollFunction = () => {
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+        document.getElementById('nav-bar').classList.add('navScroll');
+    }
+    else{
+        document.getElementById('nav-bar').classList.remove('navScroll');
+    }
 }

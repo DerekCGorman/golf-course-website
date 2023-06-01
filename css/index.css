@@ -7,6 +7,10 @@
     --font-color: #eee;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -36,6 +40,13 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.navScroll{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.5);
 }
 nav .links{
     width: 50%;
@@ -299,10 +310,11 @@ nav .links a{
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 40%;
+    width: 70%;
     border: 1px solid black;
     margin-bottom: 16px;
     cursor: pointer;
+    padding: 16px;
 }
 
 .faq .module .question{
@@ -321,6 +333,11 @@ nav .links a{
     flex-direction: column;
     justify-content: center;
     padding: 16px;
+}
+
+.faq .module .answer h4, .faq .module .answer h5{
+    display: inline-block;
+    margin: 0;
 }
 
 .faq .module .fa-caret-down{
@@ -710,6 +727,31 @@ footer hr{
 
     .bar-container .left{
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .section-carousel .buttons{
+        width: 100%;
+    }
+
+    footer .grid-container{
+        padding: 0px;
+    }
+
+    .about-container .left{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        border-radius: 0px;
+    }
+
+    .about-container .left h2{
+        text-align: center;
     }
 }
 
