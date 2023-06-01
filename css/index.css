@@ -703,6 +703,14 @@ footer hr{
         padding: 16px;
         width: 70%;
     }
+
+    .bar-container{
+        height: auto;
+    }
+
+    .bar-container .left{
+        height: auto;
+    }
 }
 
 /* =============================================== */
