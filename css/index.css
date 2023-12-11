@@ -2,7 +2,7 @@
     --EB-font: 'EB Garamond', serif;
     --sans-font: 'Lato', sans-serif;
     --primary-green: #004938;
-    --bacground-color: #1d1d1d;
+    --background-color: #1d1d1d;
 
     --font-color: #eee;
 }
@@ -34,7 +34,7 @@ header{
 /* =============================================== */
 
 nav{
-    background: var(--bacground-color);
+    background: var(--background-color);
     width: 100%;
     height: 70px;
     display: flex;
@@ -85,7 +85,7 @@ nav .links a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("https://www.highpointgolfclub.com/wp-content/uploads/sites/6342/2019/04/backgroundImage_1.jpg");
+    background-image: url("https://images.unsplash.com/photo-1592937238247-cd0090e02f65?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-position:50%; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,6 +94,7 @@ nav .links a{
     font-size: 80px;
     color: var(--font-color);
     margin: 0px;
+    /* margin-top: 100px; */
     letter-spacing: -2px;
     font-weight: lighter;
 }
@@ -101,6 +102,7 @@ nav .links a{
     font-size: 30px;
     color: var(--font-color);
     margin: 0px;
+    margin-top: 200px;
     font-weight: lighter;
 }
 .carousel img{
@@ -113,7 +115,7 @@ nav .links a{
     align-items: center;
 }
 .carousel button{
-    background-color: transparent;
+    /* background-color: transparent; */
     border: 1px solid var(--font-color);;
     color: var(--font-color);
     font-size: 25px;
@@ -124,6 +126,7 @@ nav .links a{
     position: relative;
     overflow: hidden; 
     z-index: 1;
+    color: black;
 }
 .carousel button:hover{
     color: black;
@@ -203,8 +206,8 @@ nav .links a{
 
 }
 .bar-options .events{    
-    background: url("https://www.highpointgolfclub.com/wp-content/uploads/sites/6342/2019/04/backgroundImage_3.jpg");
-    background-position: 30% 90%;
+    background: url("https://images.unsplash.com/photo-1602646395218-8739d82c619a?q=80&w=1519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: 50% 30%;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -213,14 +216,14 @@ nav .links a{
     filter: opacity(0.8);
 }
 .bar-options .teeTimes{    
-    background: url("https://www.highpointgolfclub.com/wp-content/uploads/sites/6342/2019/04/backgroundImage_2.jpg");
-    background-position: 60% 30%;
+    background: url("https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: 55% 60%;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
 .bar-options .contact{    
-    background: url("https://www.highpointgolfclub.com/wp-content/uploads/sites/6342/2019/04/backgroundImage_4.jpg");
+    background: url("https://plus.unsplash.com/premium_photo-1670002537821-6a4fa25596f8?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-position: 60% 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -520,7 +523,7 @@ footer{
     width: 100%;
 }
 footer .grid-container{
-    background: var(--bacground-color);
+    background: var(--background-color);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
