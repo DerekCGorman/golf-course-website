@@ -15,6 +15,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: var(--EB-font);
+    overflow-x: hidden;
 }
 
 
@@ -656,6 +657,30 @@ footer hr{
     .faq .module{
         width: 80%;
     }
+    .navScroll{
+        position:absolute;
+    }
+    nav{
+        width: 0;
+        height: 0;
+    }
+
+    .carousel h1{
+        font-size: 80px;
+        color: #030303;
+        margin: 0px;
+        /* margin-top: 100px; */
+        letter-spacing: -2px;
+        font-weight: lighter;
+    }
+    .carousel h2{
+        font-size: 30px;
+        color: #030303;
+        margin: 0px;
+        /* margin-top: 500px; */
+        font-weight: lighter;
+    }
+
 
     footer .grid-container{
         grid-template-areas: 
