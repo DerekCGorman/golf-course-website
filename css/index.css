@@ -66,6 +66,10 @@ nav .links a{
     display: none;
 }
 
+.number{
+    color: #eee;
+}
+
 /* =============================================== */
 /*                  NAV BAR STYLES                 */
 /* =============================================== */
@@ -102,7 +106,7 @@ nav .links a{
     font-size: 30px;
     color: var(--font-color);
     margin: 0px;
-    margin-top: 200px;
+    margin-top: 200x;
     font-weight: lighter;
 }
 .carousel img{
